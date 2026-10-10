@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		402478761E7D508E9B9F475E /* IlyasTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9430BF3516B65D689836A783 /* IlyasTVApp.swift */; };
+		3C726C0ACABC54B6BE263CC6 /* IptvViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9140C3E8FB501FA3EB04FC /* IptvViewModel.swift */; };
+		A2D9C85C85345BE895881366 /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CBBF9D4A475BB990E0E7BA /* AccountInfo.swift */; };
+		2F790C6A184C59F7870AACCE /* ChannelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCDCFFF7E045C6AAECA940B /* ChannelItem.swift */; };
+		518A7809A2A659E3A845F893 /* DownloadItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344169F7CA1056F2A62A864B /* DownloadItem.swift */; };
+		6DC08FFADD21524889599EDA /* EpgProgramItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B88F59C80CD5AAEA6FDFB67 /* EpgProgramItem.swift */; };
+		A6B7019FEEF958EDBF2EE15E /* PlaylistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5BBE910B085A7DB50F2FB7 /* PlaylistItem.swift */; };
+		740EEEB7AD9D5DA0BBCA2CBF /* PvrRecordingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28A660CDDA85AB8B285DB52 /* PvrRecordingState.swift */; };
+		282F2AAB60B258B580BE4FC9 /* SubtitleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC07A3C5CE8E59CBA252CBB3 /* SubtitleItem.swift */; };
+		3AA89CE5DC1958A3B66C8A26 /* TmdbMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EE54364BFA58BBBEFE32EC /* TmdbMetadata.swift */; };
+		BE8180C9E460532387728A2B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC53673073D5014B8641A5D /* Colors.swift */; };
+		C124CAA5196A58AB9BCEE5C7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D85C7EAE2EA54ACBD5C2A8E /* MainTabView.swift */; };
+		1D6847FC757F5A7DA4FFB7CA /* AccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D24F0CE83F65A729EE093A3 /* AccountScreen.swift */; };
+		C05B481A2EF05399B4CFDE53 /* DownloadsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA19787A5AC157A6A26E7930 /* DownloadsScreen.swift */; };
+		72E0A2C49FE95AC1BC304FB5 /* LiveTvScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BCAB810E89510C890CC884 /* LiveTvScreen.swift */; };
+		F7EAFB8D6A565EDDAE9DA966 /* MoviesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C79F3773FE53E89C1CC853 /* MoviesScreen.swift */; };
+		43D36004D4AC5AF1B5027E4F /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE1092B4E7354A29AB873A6 /* SearchScreen.swift */; };
+		FBE24ABC3DD857F8B0CD0F04 /* SeriesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A912182FA35489A55D0F8C /* SeriesScreen.swift */; };
+		40B0F49672A45CB588D6B1DE /* CatchupSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED61DBE76D8454AFA2E00770 /* CatchupSheet.swift */; };
+		18A5883504A05A788494498C /* ChannelCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55591F08B8F56D2961D0280 /* ChannelCard.swift */; };
+		364DDB74A34C5ACB89C48B1B /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A4FFF242775AB8B3086846 /* EmptyStateView.swift */; };
+		56EFCDC4C5215E26B78E0D51 /* HistoryItemManageSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E057642128CC51D78F88E02C /* HistoryItemManageSheet.swift */; };
+		DFEADBA47C45508788186C8D /* LegalDisclaimerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89799891C5A753B494AA4BFE /* LegalDisclaimerSheet.swift */; };
+		29359285D5B655FAB23D0B6D /* OnlineSubtitleSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E58C4B386651A58AFBF0EB /* OnlineSubtitleSheet.swift */; };
+		7EE991334B1455F2ACFA797B /* StreamPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5363FDF49945ADAA704B11A /* StreamPlayerView.swift */; };
+		7BD1C31A9304526DB51FE8E3 /* TmdbDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE129AAB937E5215AA112F86 /* TmdbDetailSheet.swift */; };
+		15719950302B5BF392504305 /* CatchupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9D78B068C58738B899853 /* CatchupHelper.swift */; };
+		4DBD4201709851AE83DF7825 /* DownloadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C62D542032D53969A05A164 /* DownloadService.swift */; };
+		90A7924D852A5D5FBB3F4D4E /* M3uParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A2377296935E5E8A883DA3 /* M3uParser.swift */; };
+		4F970CE4A5FC5208A0744145 /* PvrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CAEB3FEFF956FEB5F7E2E1 /* PvrService.swift */; };
+		A749EBEB63E65DB2B7AADFBD /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C608355523895871940D8193 /* StorageManager.swift */; };
+		71AEB3081771581AA1A74C1A /* SubtitleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084891232B8A59FDA7730255 /* SubtitleService.swift */; };
+		28E8D39B1E9B5BB2B3DB91B2 /* TmdbService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DF9C2B986558369EDDE735 /* TmdbService.swift */; };
+		9830B84C1ECE5CA6B327804F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C298117F55957B69BBF4580 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9430BF3516B65D689836A783 /* IlyasTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/IlyasTVApp.swift"; sourceTree = "<group>"; };
+		8E9140C3E8FB501FA3EB04FC /* IptvViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/ViewModels/IptvViewModel.swift"; sourceTree = "<group>"; };
+		78CBBF9D4A475BB990E0E7BA /* AccountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Models/AccountInfo.swift"; sourceTree = "<group>"; };
+		CFCDCFFF7E045C6AAECA940B /* ChannelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Models/ChannelItem.swift"; sourceTree = "<group>"; };
+		344169F7CA1056F2A62A864B /* DownloadItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Models/DownloadItem.swift"; sourceTree = "<group>"; };
+		9B88F59C80CD5AAEA6FDFB67 /* EpgProgramItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Models/EpgProgramItem.swift"; sourceTree = "<group>"; };
+		1B5BBE910B085A7DB50F2FB7 /* PlaylistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Models/PlaylistItem.swift"; sourceTree = "<group>"; };
+		E28A660CDDA85AB8B285DB52 /* PvrRecordingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Models/PvrRecordingState.swift"; sourceTree = "<group>"; };
+		CC07A3C5CE8E59CBA252CBB3 /* SubtitleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Models/SubtitleItem.swift"; sourceTree = "<group>"; };
+		19EE54364BFA58BBBEFE32EC /* TmdbMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Models/TmdbMetadata.swift"; sourceTree = "<group>"; };
+		BBC53673073D5014B8641A5D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Theme/Colors.swift"; sourceTree = "<group>"; };
+		0D85C7EAE2EA54ACBD5C2A8E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/MainTabView.swift"; sourceTree = "<group>"; };
+		9D24F0CE83F65A729EE093A3 /* AccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Screens/AccountScreen.swift"; sourceTree = "<group>"; };
+		BA19787A5AC157A6A26E7930 /* DownloadsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Screens/DownloadsScreen.swift"; sourceTree = "<group>"; };
+		F7BCAB810E89510C890CC884 /* LiveTvScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Screens/LiveTvScreen.swift"; sourceTree = "<group>"; };
+		13C79F3773FE53E89C1CC853 /* MoviesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Screens/MoviesScreen.swift"; sourceTree = "<group>"; };
+		CDE1092B4E7354A29AB873A6 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Screens/SearchScreen.swift"; sourceTree = "<group>"; };
+		27A912182FA35489A55D0F8C /* SeriesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Screens/SeriesScreen.swift"; sourceTree = "<group>"; };
+		ED61DBE76D8454AFA2E00770 /* CatchupSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Components/CatchupSheet.swift"; sourceTree = "<group>"; };
+		C55591F08B8F56D2961D0280 /* ChannelCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Components/ChannelCard.swift"; sourceTree = "<group>"; };
+		D3A4FFF242775AB8B3086846 /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Components/EmptyStateView.swift"; sourceTree = "<group>"; };
+		E057642128CC51D78F88E02C /* HistoryItemManageSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Components/HistoryItemManageSheet.swift"; sourceTree = "<group>"; };
+		89799891C5A753B494AA4BFE /* LegalDisclaimerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Components/LegalDisclaimerSheet.swift"; sourceTree = "<group>"; };
+		B2E58C4B386651A58AFBF0EB /* OnlineSubtitleSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Components/OnlineSubtitleSheet.swift"; sourceTree = "<group>"; };
+		A5363FDF49945ADAA704B11A /* StreamPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Components/StreamPlayerView.swift"; sourceTree = "<group>"; };
+		EE129AAB937E5215AA112F86 /* TmdbDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Views/Components/TmdbDetailSheet.swift"; sourceTree = "<group>"; };
+		37D9D78B068C58738B899853 /* CatchupHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Services/CatchupHelper.swift"; sourceTree = "<group>"; };
+		9C62D542032D53969A05A164 /* DownloadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Services/DownloadService.swift"; sourceTree = "<group>"; };
+		F9A2377296935E5E8A883DA3 /* M3uParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Services/M3uParser.swift"; sourceTree = "<group>"; };
+		88CAEB3FEFF956FEB5F7E2E1 /* PvrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Services/PvrService.swift"; sourceTree = "<group>"; };
+		C608355523895871940D8193 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Services/StorageManager.swift"; sourceTree = "<group>"; };
+		084891232B8A59FDA7730255 /* SubtitleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Services/SubtitleService.swift"; sourceTree = "<group>"; };
+		A3DF9C2B986558369EDDE735 /* TmdbService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sources/Services/TmdbService.swift"; sourceTree = "<group>"; };
+		2C298117F55957B69BBF4580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		561C653434435CA9881314BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resources/Info.plist"; sourceTree = "<group>"; };
+		02BA187EBFAD541DB1D4801D /* IlyasTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlyasTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C21DB9971432508CA4AAB2B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0884F0A39F5951528F6F000C /* IlyasTV */ = {
+			isa = PBXGroup;
+			children = (
+				9430BF3516B65D689836A783 /* IlyasTVApp.swift */,
+				8E9140C3E8FB501FA3EB04FC /* IptvViewModel.swift */,
+				78CBBF9D4A475BB990E0E7BA /* AccountInfo.swift */,
+				CFCDCFFF7E045C6AAECA940B /* ChannelItem.swift */,
+				344169F7CA1056F2A62A864B /* DownloadItem.swift */,
+				9B88F59C80CD5AAEA6FDFB67 /* EpgProgramItem.swift */,
+				1B5BBE910B085A7DB50F2FB7 /* PlaylistItem.swift */,
+				E28A660CDDA85AB8B285DB52 /* PvrRecordingState.swift */,
+				CC07A3C5CE8E59CBA252CBB3 /* SubtitleItem.swift */,
+				19EE54364BFA58BBBEFE32EC /* TmdbMetadata.swift */,
+				BBC53673073D5014B8641A5D /* Colors.swift */,
+				0D85C7EAE2EA54ACBD5C2A8E /* MainTabView.swift */,
+				9D24F0CE83F65A729EE093A3 /* AccountScreen.swift */,
+				BA19787A5AC157A6A26E7930 /* DownloadsScreen.swift */,
+				F7BCAB810E89510C890CC884 /* LiveTvScreen.swift */,
+				13C79F3773FE53E89C1CC853 /* MoviesScreen.swift */,
+				CDE1092B4E7354A29AB873A6 /* SearchScreen.swift */,
+				27A912182FA35489A55D0F8C /* SeriesScreen.swift */,
+				ED61DBE76D8454AFA2E00770 /* CatchupSheet.swift */,
+				C55591F08B8F56D2961D0280 /* ChannelCard.swift */,
+				D3A4FFF242775AB8B3086846 /* EmptyStateView.swift */,
+				E057642128CC51D78F88E02C /* HistoryItemManageSheet.swift */,
+				89799891C5A753B494AA4BFE /* LegalDisclaimerSheet.swift */,
+				B2E58C4B386651A58AFBF0EB /* OnlineSubtitleSheet.swift */,
+				A5363FDF49945ADAA704B11A /* StreamPlayerView.swift */,
+				EE129AAB937E5215AA112F86 /* TmdbDetailSheet.swift */,
+				37D9D78B068C58738B899853 /* CatchupHelper.swift */,
+				9C62D542032D53969A05A164 /* DownloadService.swift */,
+				F9A2377296935E5E8A883DA3 /* M3uParser.swift */,
+				88CAEB3FEFF956FEB5F7E2E1 /* PvrService.swift */,
+				C608355523895871940D8193 /* StorageManager.swift */,
+				084891232B8A59FDA7730255 /* SubtitleService.swift */,
+				A3DF9C2B986558369EDDE735 /* TmdbService.swift */,
+				2C298117F55957B69BBF4580 /* Assets.xcassets */,
+				561C653434435CA9881314BA /* Info.plist */,
+			);
+			path = IlyasTV;
+			sourceTree = "<group>";
+		};
+		5817EB4F7047534F8B12DE95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02BA187EBFAD541DB1D4801D /* IlyasTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D8A6A0B46535735A9F7A0FE = {
+			isa = PBXGroup;
+			children = (
+				0884F0A39F5951528F6F000C /* IlyasTV */,
+				5817EB4F7047534F8B12DE95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4B050A6BB0E584782E09866 /* IlyasTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD63CA14195551FE9536D4D3 /* Build configuration list for PBXNativeTarget "IlyasTV" */;
+			buildPhases = (
+				8172248AF3AD54D99058371E /* Sources */,
+				C21DB9971432508CA4AAB2B0 /* Frameworks */,
+				3D699AF6C6D65A5EB748467A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IlyasTV;
+			productName = IlyasTV;
+			productReference = 02BA187EBFAD541DB1D4801D /* IlyasTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89E3FE1BDCCE515682E1D1E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C4B050A6BB0E584782E09866 = {
+						CreatedOnToolsRevelation = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = D10551D8304D58F5A54C0561 /* Build configuration list for PBXProject "IlyasTV" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 8D8A6A0B46535735A9F7A0FE;
+			productRefGroup = 5817EB4F7047534F8B12DE95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4B050A6BB0E584782E09866 /* IlyasTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D699AF6C6D65A5EB748467A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9830B84C1ECE5CA6B327804F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8172248AF3AD54D99058371E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402478761E7D508E9B9F475E /* IlyasTVApp.swift in Sources */,
+				3C726C0ACABC54B6BE263CC6 /* IptvViewModel.swift in Sources */,
+				A2D9C85C85345BE895881366 /* AccountInfo.swift in Sources */,
+				2F790C6A184C59F7870AACCE /* ChannelItem.swift in Sources */,
+				518A7809A2A659E3A845F893 /* DownloadItem.swift in Sources */,
+				6DC08FFADD21524889599EDA /* EpgProgramItem.swift in Sources */,
+				A6B7019FEEF958EDBF2EE15E /* PlaylistItem.swift in Sources */,
+				740EEEB7AD9D5DA0BBCA2CBF /* PvrRecordingState.swift in Sources */,
+				282F2AAB60B258B580BE4FC9 /* SubtitleItem.swift in Sources */,
+				3AA89CE5DC1958A3B66C8A26 /* TmdbMetadata.swift in Sources */,
+				BE8180C9E460532387728A2B /* Colors.swift in Sources */,
+				C124CAA5196A58AB9BCEE5C7 /* MainTabView.swift in Sources */,
+				1D6847FC757F5A7DA4FFB7CA /* AccountScreen.swift in Sources */,
+				C05B481A2EF05399B4CFDE53 /* DownloadsScreen.swift in Sources */,
+				72E0A2C49FE95AC1BC304FB5 /* LiveTvScreen.swift in Sources */,
+				F7EAFB8D6A565EDDAE9DA966 /* MoviesScreen.swift in Sources */,
+				43D36004D4AC5AF1B5027E4F /* SearchScreen.swift in Sources */,
+				FBE24ABC3DD857F8B0CD0F04 /* SeriesScreen.swift in Sources */,
+				40B0F49672A45CB588D6B1DE /* CatchupSheet.swift in Sources */,
+				18A5883504A05A788494498C /* ChannelCard.swift in Sources */,
+				364DDB74A34C5ACB89C48B1B /* EmptyStateView.swift in Sources */,
+				56EFCDC4C5215E26B78E0D51 /* HistoryItemManageSheet.swift in Sources */,
+				DFEADBA47C45508788186C8D /* LegalDisclaimerSheet.swift in Sources */,
+				29359285D5B655FAB23D0B6D /* OnlineSubtitleSheet.swift in Sources */,
+				7EE991334B1455F2ACFA797B /* StreamPlayerView.swift in Sources */,
+				7BD1C31A9304526DB51FE8E3 /* TmdbDetailSheet.swift in Sources */,
+				15719950302B5BF392504305 /* CatchupHelper.swift in Sources */,
+				4DBD4201709851AE83DF7825 /* DownloadService.swift in Sources */,
+				90A7924D852A5D5FBB3F4D4E /* M3uParser.swift in Sources */,
+				4F970CE4A5FC5208A0744145 /* PvrService.swift in Sources */,
+				A749EBEB63E65DB2B7AADFBD /* StorageManager.swift in Sources */,
+				71AEB3081771581AA1A74C1A /* SubtitleService.swift in Sources */,
+				28E8D39B1E9B5BB2B3DB91B2 /* TmdbService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A468129F4045E3FAD4C832A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92D93F9674F3517A8A4DFB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DCA81CF07751A49A0065E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IlyasTV/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyastv.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BC02965FB3354A2970836A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = IlyasTV/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ilyastv.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D10551D8304D58F5A54C0561 /* Build configuration list for PBXProject "IlyasTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A468129F4045E3FAD4C832A /* Debug */,
+				92D93F9674F3517A8A4DFB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD63CA14195551FE9536D4D3 /* Build configuration list for PBXNativeTarget "IlyasTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DCA81CF07751A49A0065E6 /* Debug */,
+				6BC02965FB3354A2970836A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 89E3FE1BDCCE515682E1D1E5 /* Project object */;
+}
